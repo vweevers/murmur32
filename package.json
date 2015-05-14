@@ -1,0 +1,25 @@
+{
+  "name": "murmur32",
+  "version": "1.0.0",
+  "description": "native murmurhash3 32bit with browser fallback",
+  "main": "index.js",
+  "browser": "browser.js",
+  "keywords": [
+    "murmurhash3",
+    "murmurhash"
+  ],
+  "author": "Vincent Weevers (http://vincentweevers.nl)",
+  "license": "MIT",
+  "repository": "git://github.com/vweevers/murmur32",
+  "bugs": "https://github.com/vweevers/murmur32/issues",
+  "homepage": "https://github.com/vweevers/murmur32",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "murmurhash-js": "~1.0.0"
+  },
+  "optionalDependencies": {
+    "murmurhash3": "~0.3.2"
+  }
+}
